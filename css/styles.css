@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+}
+
+.middle-container {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+
+.bottom-container {
+  width: 200px;
+  height: 200px;
+  background-color: blueviolet;
+}
