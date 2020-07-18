@@ -1,6 +1,11 @@
-* {
+body {
   margin: 0;
-  box-sizing: border-box;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto;
+  width: 10%;
 }
 
 .dev {
@@ -9,6 +14,8 @@
 
 .top-container {
   background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
@@ -21,4 +28,16 @@
   width: 200px;
   height: 200px;
   background-color: blueviolet;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 20px;
 }
